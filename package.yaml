@@ -42,3 +42,4 @@ tests:
       - quickcheck-instances >= 0.3.*
       - protolude
       - neat-interpolation >= 0.3
+
