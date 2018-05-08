@@ -21,9 +21,9 @@ dependencies:
   - base == 4.*
   - containers
   - text
-  - megaparsec == 5.*
-  - protolude == 0.2.*
-  - either == 4.*
+  - megaparsec >= 5.*
+  - protolude >= 0.2.*
+  - either >= 4.*
 
 library:
   source-dirs: src
@@ -39,6 +39,6 @@ tests:
       - tasty-th >= 0.1.7
       - tasty-hunit >= 0.9
       - tasty-quickcheck >= 0.8
-      - quickcheck-instances == 0.3.*
+      - quickcheck-instances >= 0.3.*
       - protolude
       - neat-interpolation >= 0.3
